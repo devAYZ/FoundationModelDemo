@@ -6,15 +6,19 @@
 //
 
 import SwiftUI
+import IntelligenceGlow
 
 struct ContentView: View {
     var body: some View {
         ScrollView {
             Image(systemName: "apple.intelligence")
                 .font(.largeTitle)
+                .foregroundStyle(.tint)
                 .imageScale(.large)
-                .foregroundStyle(.red)
                 .bold()
+                .padding(10)
+                .intelligenceOverlay(in: Circle())
+                .padding(24)
         }
         .padding()
     }
