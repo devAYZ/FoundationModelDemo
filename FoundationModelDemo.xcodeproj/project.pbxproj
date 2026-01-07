@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3AF61E132F0E49670003E983 /* IntelligenceGlow in Frameworks */ = {isa = PBXBuildFile; productRef = 3AF61E122F0E49670003E983 /* IntelligenceGlow */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3AF61DF52F0E36FB0003E983 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF61E132F0E49670003E983 /* IntelligenceGlow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = FoundationModelDemo;
 			packageProductDependencies = (
+				3AF61E122F0E49670003E983 /* IntelligenceGlow */,
 			);
 			productName = FoundationModelDemo;
 			productReference = 3AF61DE72F0E36F90003E983 /* FoundationModelDemo.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 3AF61DDE2F0E36F90003E983;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3AF61E112F0E49670003E983 /* XCRemoteSwiftPackageReference "IntelligenceGlow" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3AF61DE82F0E36F90003E983 /* Products */;
 			projectDirPath = "";
@@ -578,6 +587,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AF61E112F0E49670003E983 /* XCRemoteSwiftPackageReference "IntelligenceGlow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Livsy90/IntelligenceGlow";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AF61E122F0E49670003E983 /* IntelligenceGlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AF61E112F0E49670003E983 /* XCRemoteSwiftPackageReference "IntelligenceGlow" */;
+			productName = IntelligenceGlow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AF61DDF2F0E36F90003E983 /* Project object */;
 }
